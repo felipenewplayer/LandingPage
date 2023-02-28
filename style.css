@@ -114,13 +114,14 @@ section {
 .sectionLeft h1 {
     font-size: 50px;
     color: #3D445B;
-    margin-bottom: 30px;
+    margin: 50px 0;
+    text-align: center;
 }
 
 .sectionLeft p {
     font-size: 30px;
     color: #3D445B;
-    margin-bottom: 30px;
+    padding: 0 30px;
 }
 
 .sectionRight img {
@@ -169,34 +170,24 @@ aside div img{
 
 footer{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
 }
 footer a {
-    text-decoration: none;
     color: #7D7D7D;
-}
-
-.footerTxt{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    border-bottom: 2px solid #E6E6E6;
-    text-align: left;
-    
+    text-decoration: none;
 }
 
 
-.footerList{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    align-items: center;
-
+.footerCol h4{
+    color :#7D7D7D;
+    font-size: 20px;
+    border-bottom:  2px solid #373D38;
 }
 
-.footerList ul {
+
+.footerCol ul {
     list-style: none;
-    margin-left: 70px;
-    margin-bottom: 10px;
-    text-align: center;
+    color: #373D38;
+    margin: 20px 0;
 }
