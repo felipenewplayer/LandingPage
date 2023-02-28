@@ -99,7 +99,7 @@ body {
     font-size: 20px;
 }
 
-section {
+main {
     background-color: #DCDCDC;
     display: flex;
     justify-content: space-between;
@@ -107,23 +107,23 @@ section {
     margin-bottom: 20px;
 }
 
-.sectionLeft {
+.mainLeft {
     padding: 20px;
 }
 
-.sectionLeft h1 {
+.mainLeft h1 {
     font-size: 50px;
     color: #3D445B;
     margin-bottom: 30px;
 }
 
-.sectionLeft p {
+.mainLeft p {
     font-size: 30px;
     color: #3D445B;
     margin-bottom: 30px;
 }
 
-.sectionRight img {
+.mainRight img {
     padding: 20px;
     width: 600px;
     border-radius: 30px;
